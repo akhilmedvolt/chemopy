@@ -31,7 +31,7 @@ setup(name = 'chemopy',
 	
 #	data_files = datafiles,
 	
-	package_dir={'pychem':'src/pychem'},
+	package_dir={'pychem':'chemopy/src/pychem'},
 	
 	scripts = [],
 	
