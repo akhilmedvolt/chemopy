@@ -99,7 +99,7 @@ class PyChem2d:
             Output: res is a molecule object.
         #################################################################
         """
-        self.mol = Chem.MolFromSmiles(string.strip(smi))
+        self.mol = Chem.MolFromSmiles(smi.strip())
         
         return self.mol
         
